@@ -31,6 +31,7 @@
     },
     "scripts": {
         "start": "scandipwa-scripts start",
+        "start:prod": "serve -s build -l 3000",
         "build": "scandipwa-scripts build"
     },
     "browserslist": {
@@ -45,5 +46,5 @@
             "last 1 safari version"
         ]
     },
-    "proxy": "https://taxlien.online/"
+    "proxy": "http://taxlien.online/"
 }
