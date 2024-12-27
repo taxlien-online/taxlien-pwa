@@ -3,17 +3,17 @@
     "version": "0.0.1",
     "license": "OSL-3.0",
     "dependencies": {
+        "@babel/plugin-transform-typescript": "7.20.2",
+        "@scandipwa/eslint-config": "0.2.2",
         "@scandipwa/scandipwa": "6.3.1",
         "@scandipwa/scandipwa-scripts": "2.5.0",
-        "@scandipwa/eslint-config": "0.2.2",
         "@scandipwa/ts-server-plugin": "0.0.5",
         "@tilework/mosaic": "1.0.1",
         "@tilework/mosaic-craco": "1.0.1",
-        "@types/react": "18.2.74",
         "@types/node": "20.12.4",
+        "@types/react": "18.2.74",
         "postcss": "8.4.5",
-        "react-redux": "8.0.2",
-        "@babel/plugin-transform-typescript": "7.20.2"
+        "react-redux": "8.0.2"
     },
     "devDependencies": {
         "@babel/plugin-proposal-private-property-in-object": "7.21.11",
@@ -46,5 +46,5 @@
             "last 1 safari version"
         ]
     },
-    "proxy": "http://taxlien.online/"
+    "proxy": "https://taxlien.online"
 }
