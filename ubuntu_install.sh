@@ -1,5 +1,5 @@
-npm i -g scandipwa-cli
-yarn install -g serve
+#sudo npm i -g scandipwa-cli
+#yarn global add serve
 cd scandipwa-app
 yarn install
 

@@ -2496,23 +2496,13 @@
     react-dev-utils "^12.0.1"
     webpack-bundle-analyzer "^4.1.0"
 
-"@scandipwa/chunk-optimizer@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@scandipwa/chunk-optimizer/-/chunk-optimizer-1.0.3.tgz#635d502c90525b63b2fba728ec51faa48a1055d1"
-  integrity sha512-m8ys4LYG4zqOhzjuETHNYGiag+0v1grco/4mPLDAp9qCFQ2g29PVq/qV4CrdDys8xlr8l6pMkmINcNMDaKlVSg==
+"@scandipwa/chunk-optimizer@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@scandipwa/chunk-optimizer/-/chunk-optimizer-1.0.4.tgz#09ba0e03c91a4eedec943e20f7f7fe3c1778c0d2"
+  integrity sha512-lxbwSxS7XJfLKzjZs3HTol9TiBiqZdtYeFy1tmqe2VnqRbkLRde/1tKJrnCWZROzcPcsO466Jt+qIFG4Mxgd0A==
   dependencies:
     "@tilework/mosaic-craco" "0.0.5"
     circular-dependency-plugin "^5.2.2"
-
-"@scandipwa/craco@0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@scandipwa/craco/-/craco-0.1.1.tgz#a010ed86fb6905b2e6fe4683eb502ad58c14f8f5"
-  integrity sha512-RFMbINkaLlNC8aEYglDqK1XfBbpPLyRpmpIYxF22VHtflSQWyjqJHcdL1OZeGY5Bq9Gi9sWmDGGKkVDbV0G/aw==
-  dependencies:
-    cross-spawn "^7.0.0"
-    lodash "^4.17.15"
-    semver "^7.3.2"
-    webpack-merge "^4.2.2"
 
 "@scandipwa/eslint-config@0.2.2":
   version "0.2.2"
@@ -2547,12 +2537,11 @@
     eslint-traverse "^1.0.0"
     requireindex "~1.1.0"
 
-"@scandipwa/m2-theme@0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@scandipwa/m2-theme/-/m2-theme-0.3.3.tgz#ae2a732d261ff92f59f93e053348b5edd5668578"
-  integrity sha512-x08ts05VWKmKypCW9z7vc3YWaD7fINZ8g7O5zeA1cZfgGNSOeEdqQ0+RXMJbjN+vk2KmMRAPz3iGuyI3p0iBvw==
+"@scandipwa/m2-theme@0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@scandipwa/m2-theme/-/m2-theme-0.4.1.tgz#f9583473e4694251d0888ecc93bc1c6628537a21"
+  integrity sha512-m3SFpTz93HMsB+0ZWcrBz/YWmMscJURDnAGSTU4pHGsp5dPS1F3XtRKms/e8T04m5421CQsanFk1F3nFDWZZaw==
   dependencies:
-    "@scandipwa/craco" "0.1.1"
     "@scandipwa/scandipwa-dev-utils" "0.1.17"
     "@scandipwa/webpack-fallback-plugin" "^1.2.5"
 
@@ -2601,7 +2590,7 @@
     semver "^7.3.2"
     validate-npm-package-name "^3.0.0"
 
-"@scandipwa/scandipwa-scripts@2.5.0":
+"@scandipwa/scandipwa-scripts@2.5.0", "@scandipwa/scandipwa-scripts@^2.5.0":
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/@scandipwa/scandipwa-scripts/-/scandipwa-scripts-2.5.0.tgz#48b6f59a3870627032c2f03bc0474d184ff98b3d"
   integrity sha512-Bky7WpRvHZKT9PtVKgqJDFSboMMpIC3n6BYr6ka3zb3gH3ClTMJZ3OejLfgubZqcvCZCbJxFECGI7gI9TC9rAg==
@@ -2621,19 +2610,19 @@
     lodash "^4.17.20"
     xmldom "^0.5.0"
 
-"@scandipwa/scandipwa@6.3.1":
-  version "6.3.1"
-  resolved "https://registry.yarnpkg.com/@scandipwa/scandipwa/-/scandipwa-6.3.1.tgz#9f8e339dacee5112487372d2c84f8d0b03859bc2"
-  integrity sha512-GJABfD+A6REF2XF9EvRERRCEu6ty099obFiUZplG09hUftaB6P1zmIbh+9T8ufXwAa75STufET9W8sJARH4Ieg==
+"@scandipwa/scandipwa@^6.4.0":
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/@scandipwa/scandipwa/-/scandipwa-6.4.0.tgz#457dfe6ec386e84101064f924480608cc7cb78c7"
+  integrity sha512-rTIryXgsQqM1Xrlwrz45qSaOF6v84K7baY+SpPF3/xXgKexq4dqijiW5Taog3e+2gBw3KvahMiwEWpsIuMtNhQ==
   dependencies:
     "@scandipwa/bundle-analyzer" "0.1.1"
-    "@scandipwa/chunk-optimizer" "1.0.3"
-    "@scandipwa/m2-theme" "0.3.3"
+    "@scandipwa/chunk-optimizer" "1.0.4"
+    "@scandipwa/m2-theme" "0.4.1"
     "@scandipwa/next-emulator" "0.0.4"
     "@scandipwa/postcss-config" "0.0.3"
     "@scandipwa/preact-integration" "0.0.1"
     "@scandipwa/scandipwa-scripts" "2.5.0"
-    "@scandipwa/service-worker" "0.0.18"
+    "@scandipwa/service-worker" "0.1.0"
     "@scandipwa/stylelint-config" "0.0.8"
     "@scandipwa/webpack-i18n-runtime" "0.1.0"
     "@tilework/opus" "0.0.12"
@@ -2669,10 +2658,10 @@
     typescript "4.7.2"
     unstated-typescript "2.1.7"
 
-"@scandipwa/service-worker@0.0.18":
-  version "0.0.18"
-  resolved "https://registry.yarnpkg.com/@scandipwa/service-worker/-/service-worker-0.0.18.tgz#4e7295a992b0d5dcd2c1192bb97881a3d425ad2a"
-  integrity sha512-Dta+wSV4ZjZyWYRxIMEkqI73W2Vb5GrVBnmWwUolJCaW+/HtmfG4K2TMZPLjCUx1YGJd16pimNfyylGUfYkLjQ==
+"@scandipwa/service-worker@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@scandipwa/service-worker/-/service-worker-0.1.0.tgz#ce9d86188bdaab10dc967c1a844a52a4fc9e7dbe"
+  integrity sha512-K6+TZWOs5CWOkgRtjQB3JK/SQM1oT824SBJ9mmbAbqbSO734lkogH2aUmYX2w8iFbERih6G2FvmHvInx6PgC9w==
   dependencies:
     "@tilework/mosaic-webpack-fallback-plugin" "0.0.10"
     lodash.clonedeep "^4.5.0"
@@ -3336,7 +3325,7 @@
   resolved "https://registry.yarnpkg.com/@types/http-errors/-/http-errors-2.0.4.tgz#7eb47726c391b7345a6ec35ad7f4de469cf5ba4f"
   integrity sha512-D0CFMMtydbJAegzOyHjtiKPLlvnm3iTZyZRSZoLq2mRhDdmLfIWOCYPfQJ4cu2erKghU++QvjcUjp/5h7hESpA==
 
-"@types/http-proxy@^1.17.8":
+"@types/http-proxy@^1.17.15", "@types/http-proxy@^1.17.8":
   version "1.17.15"
   resolved "https://registry.yarnpkg.com/@types/http-proxy/-/http-proxy-1.17.15.tgz#12118141ce9775a6499ecb4c01d02f90fc839d36"
   integrity sha512-25g5atgiVNTIv0LBDTg1H74Hvayx0ajtJPLLcYE3whFv75J0pWNtOBzaXJQgDTmrX1bx5U9YC2w/n65BN1HwRQ==
@@ -6340,7 +6329,7 @@ debug@2.6.9, debug@^2.1.3, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.
   dependencies:
     ms "2.0.0"
 
-debug@4, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2, debug@^4.3.4:
+debug@4, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2, debug@^4.3.4, debug@^4.3.6:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.4.0.tgz#2b3f2aea2ffeb776477460267377dc8710faba8a"
   integrity sha512-6WTZ/IxCY/T6BALoZHaE4ctp9xm+Z5kY/pzYaCHRFeyVhojxlrm+46y68HA6hr0TcwEssoxNiDEUJQjfPZ/RYA==
@@ -8822,6 +8811,18 @@ http-proxy-middleware@^2.0.3:
     is-glob "^4.0.1"
     is-plain-obj "^3.0.0"
     micromatch "^4.0.2"
+
+http-proxy-middleware@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/http-proxy-middleware/-/http-proxy-middleware-3.0.3.tgz#dc1313c75bd00d81e103823802551ee30130ebd1"
+  integrity sha512-usY0HG5nyDUwtqpiZdETNbmKtw3QQ1jwYFZ9wi5iHzX2BcILwQKtYDJPo7XHTsu5Z0B2Hj3W9NNnbd+AjFWjqg==
+  dependencies:
+    "@types/http-proxy" "^1.17.15"
+    debug "^4.3.6"
+    http-proxy "^1.18.1"
+    is-glob "^4.0.3"
+    is-plain-object "^5.0.0"
+    micromatch "^4.0.8"
 
 http-proxy@^1.18.1:
   version "1.18.1"
@@ -14890,7 +14891,7 @@ string-natural-compare@^3.0.1:
   resolved "https://registry.yarnpkg.com/string-natural-compare/-/string-natural-compare-3.0.1.tgz#7a42d58474454963759e8e8b7ae63d71c1e7fdf4"
   integrity sha512-n3sPwynL1nwKi3WJ6AIsClwBMa0zTi54fn2oLU6ndfTSIO05xaznjSf15PcBZU6FNWbmN5Q6cxT4V5hGvB4taw==
 
-"string-width-cjs@npm:string-width@^4.2.0":
+"string-width-cjs@npm:string-width@^4.2.0", "string-width@^1.0.2 || 2 || 3 || 4", string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
@@ -14907,15 +14908,6 @@ string-width@^1.0.1:
     code-point-at "^1.0.0"
     is-fullwidth-code-point "^1.0.0"
     strip-ansi "^3.0.0"
-
-"string-width@^1.0.2 || 2 || 3 || 4", string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
-  version "4.2.3"
-  resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
-  integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
-  dependencies:
-    emoji-regex "^8.0.0"
-    is-fullwidth-code-point "^3.0.0"
-    strip-ansi "^6.0.1"
 
 string-width@^5.0.1, string-width@^5.1.2:
   version "5.1.2"
@@ -15017,7 +15009,7 @@ stringify-object@^3.3.0:
     is-obj "^1.0.1"
     is-regexp "^1.0.0"
 
-"strip-ansi-cjs@npm:strip-ansi@^6.0.1":
+"strip-ansi-cjs@npm:strip-ansi@^6.0.1", strip-ansi@^6.0.0, strip-ansi@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
   integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
@@ -15044,13 +15036,6 @@ strip-ansi@^5.1.0:
   integrity sha512-DuRs1gKbBqsMKIZlrffwlug8MHkcnpjs5VPmL1PAh+mA30U0DTotfDZ0d2UUsXpPmPmMMJ6W773MaA3J+lbiWA==
   dependencies:
     ansi-regex "^4.1.0"
-
-strip-ansi@^6.0.0, strip-ansi@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
-  integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
-  dependencies:
-    ansi-regex "^5.0.1"
 
 strip-ansi@^7.0.1:
   version "7.1.0"
@@ -16835,7 +16820,7 @@ worker-rpc@^0.1.0:
   dependencies:
     microevent.ts "~0.1.1"
 
-"wrap-ansi-cjs@npm:wrap-ansi@^7.0.0":
+"wrap-ansi-cjs@npm:wrap-ansi@^7.0.0", wrap-ansi@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
   integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
@@ -16848,15 +16833,6 @@ wrap-ansi@^6.2.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-6.2.0.tgz#e9393ba07102e6c91a3b221478f0257cd2856e53"
   integrity sha512-r6lPcBGxZXlIcymEu7InxDMhdW0KDxpLgoFLcguasxCaJ/SOIZwINatK9KY/tf+ZrlywOKU0UDj3ATXUBfxJXA==
-  dependencies:
-    ansi-styles "^4.0.0"
-    string-width "^4.1.0"
-    strip-ansi "^6.0.0"
-
-wrap-ansi@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
-  integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
   dependencies:
     ansi-styles "^4.0.0"
     string-width "^4.1.0"
